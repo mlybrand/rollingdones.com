@@ -1,7 +1,15 @@
 var grunt = require("grunt");
 
-grunt.registerTask("foo", function() {
-    console.log("bar");
+grunt.initConfig({
+    pkg: grunt.file.readJSON("package.json"),
+    jshint: {
+        all: ['**/*.js'],
+        options: {
+            ignores: ['node_modules/**/*.js']
+        }
+    }
 });
 
-grunt.registerTask("default", ["foo"]);
+grunt.loadNpmTasks("grunt-contrib-jshint");
+
+grunt.registerTask("default", ["jshint"]);
