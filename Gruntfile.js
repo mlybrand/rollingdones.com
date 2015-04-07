@@ -1,15 +1,21 @@
-var grunt = require("grunt");
+(function() {
+    "use strict";
 
-grunt.initConfig({
-    pkg: grunt.file.readJSON("package.json"),
-    jshint: {
-        all: ['**/*.js'],
-        options: {
-            ignores: ['node_modules/**/*.js']
+    var grunt = require("grunt");
+
+    grunt.initConfig({
+        pkg: grunt.file.readJSON("package.json"),
+        jshint: {
+            all: ['**/*.js'],
+            options: {
+                ignores: ['node_modules/**/*.js']
+            }
         }
-    }
-});
+    });
 
-grunt.loadNpmTasks("grunt-contrib-jshint");
+    grunt.loadNpmTasks("grunt-contrib-jshint");
 
-grunt.registerTask("default", ["jshint"]);
+    grunt.registerTask("default", ["jshint"]);
+
+}());
+
