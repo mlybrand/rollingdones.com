@@ -1,0 +1,23 @@
+{
+  "name": "rollingdones.com",
+  "version": "1.0.0",
+  "description": "This is a todo application for now.",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlybrand/rollingdones.com.git"
+  },
+  "keywords": [
+    "todo",
+    "node"
+  ],
+  "author": "Mark Lybrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlybrand/rollingdones.com/issues"
+  },
+  "homepage": "https://github.com/mlybrand/rollingdones.com"
+}
