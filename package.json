@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mlybrand/rollingdones.com/issues"
   },
-  "homepage": "https://github.com/mlybrand/rollingdones.com"
+  "homepage": "https://github.com/mlybrand/rollingdones.com",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
