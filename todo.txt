@@ -3,6 +3,5 @@
     - if pass, then update node
         - fix loa_tools
         - fix porcomprar
-        - fix project_snowball
 * add dependencies
 * add dev dependencies
