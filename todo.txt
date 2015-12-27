@@ -1,4 +1,4 @@
-* add travis ci support
+* [pending to see how to change ubuntu version] add travis ci support
     - check travis support for higher node version.
     - if pass, then update node
         - fix loa_tools
